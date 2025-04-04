@@ -21,7 +21,7 @@ export interface Characters {
 }
 
 export interface DragonBallPlanetsDetail extends DragonBallPlanets {
-  characters: Characters;
+  characters: Characters[];
 }
 
 export interface Meta {
